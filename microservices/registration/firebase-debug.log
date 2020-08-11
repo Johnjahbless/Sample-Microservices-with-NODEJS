@@ -1,0 +1,58 @@
+[debug] [2020-08-11T15:53:20.541Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T15:53:20.621Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\U1\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-11T15:53:20.621Z] CLI Version:   7.13.1
+[debug] [2020-08-11T15:53:20.622Z] Platform:      win32
+[debug] [2020-08-11T15:53:20.622Z] Node Version:  v12.14.1
+[debug] [2020-08-11T15:53:21.331Z] Time:          Tue Aug 11 2020 16:53:20 GMT+0100 (West Africa Standard Time)
+[debug] [2020-08-11T15:53:21.332Z] ----------------------------------------------------------------------
+[debug] [2020-08-11T15:53:21.332Z] 
+[debug] [2020-08-11T15:53:21.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-11T15:53:21.823Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\U1\Documents\JSP\New\Backend
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using jsp-control-house.
+[debug] [2020-08-11T15:53:58.052Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-11T15:53:58.054Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-08-11T15:53:59.881Z] <<< HTTP RESPONSE 200
+[debug] [2020-08-11T15:54:00.342Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/jsp-control-house  
+ 
+[debug] [2020-08-11T15:54:01.797Z] <<< HTTP RESPONSE 200
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2020-08-11T15:54:01.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-11T15:54:01.811Z] > authorizing via signed-in user
+[debug] [2020-08-11T15:54:01.812Z] [iam] checking project jsp-control-house for permissions ["firebase.projects.get"]
+[debug] [2020-08-11T15:54:01.814Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jsp-control-house:testIamPermissions  
+
+[debug] [2020-08-11T15:54:04.037Z] <<< HTTP RESPONSE 200
+[debug] [2020-08-11T15:54:04.041Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/jsp-control-house/services/cloudfunctions.googleapis.com:enable  
+ 
+[debug] [2020-08-11T15:54:04.043Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/jsp-control-house/services/runtimeconfig.googleapis.com:enable  
+ 
+[debug] [2020-08-11T15:54:06.487Z] <<< HTTP RESPONSE 200
+[debug] [2020-08-11T15:54:06.677Z] <<< HTTP RESPONSE 200
